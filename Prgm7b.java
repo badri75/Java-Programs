@@ -1,13 +1,13 @@
-public class Student {
+public class Prgm7b {
 
     private String firstName, lastName;
     private Address homeAddress, schoolAddress;
     private TestScore testScores;
     
     // -----------------------------------------------------------------
-    // Constructor: Sets up this student with the specified values.
+    // Constructor: Sets up this Prgm7b with the specified values.
     // -----------------------------------------------------------------
-    public Student(String first, String last, Address home, Address school) {
+    public Prgm7b(String first, String last, Address home, Address school) {
     firstName = first;
     lastName = last;
     homeAddress = home;
@@ -18,7 +18,7 @@ public class Student {
     }
     
     //Overloaded constructor
-    public Student(String first, String last, Address home, Address school,int test1,int test2,int test3 ) {
+    public Prgm7b(String first, String last, Address home, Address school,int test1,int test2,int test3 ) {
     firstName = first;
     lastName = last;
     homeAddress = home;

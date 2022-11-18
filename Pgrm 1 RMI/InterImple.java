@@ -1,9 +1,9 @@
 //implementation of interface
-import java.rmi.*;
+import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 
-public class AddRemImpl extends UnicastRemoteObject implements AddRem {
-    public AddRemImpl() throws RemoteException {
+public class InterImple extends UnicastRemoteObject implements Interf {
+    public InterImple() throws RemoteException {
         super();
     }
     public int add(int a, int b) {

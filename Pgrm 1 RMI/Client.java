@@ -1,11 +1,11 @@
 //Client program in rmi
-import java.rmi.*;
-import java.util.*;
+import java.rmi.Naming;
+import java.util.Scanner;
 
-public class AddClient {
+public class Client {
     public static void main(String args[]) {
         try {
-            AddRem ar = (AddRem) Naming.lookup("rmi://localhost:1099/AddRem");
+            Interf ar = (Interf) Naming.lookup("rmi://localhost:1099/Interf");
             Scanner sc = new Scanner(System.in);
             System.out.println("Enter two numbers");
             int a = sc.nextInt();
